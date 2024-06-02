@@ -2,7 +2,6 @@ import customtkinter
 from pynput import keyboard
 import threading, sys, random
 import time
-from key_emulator import press_fn
 
 key = keyboard.Controller()
 stop = True
