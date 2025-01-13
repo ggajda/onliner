@@ -1,3 +1,2 @@
-pipenv shell
 nodemon --exec python onliner.py
-pyinstaller --noconfirm --onefile --windowed --add-data "C:\Users\GG\.virtualenvs\on-liner-57tgxGno\Lib\site-packages\customtkinter;customtkinter/" "onliner.py"
+.\.venv\Scripts\pyinstaller.exe --noconfirm --onefile --windowed --add-data "D:\Projects\Python\on-liner\.venv\Lib\site-packages\customtkinter;customtkinter/" main.py --name onliner
