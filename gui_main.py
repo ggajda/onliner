@@ -17,7 +17,7 @@ class App(customtkinter.CTk):
         self.event_bind = self.bind()
 
         self.geometry("700x500+10+10")
-        self.iconbitmap("assets/icon.ico")
+        #self.iconbitmap("icon.ico")
         self.title("onLiner")
         self.grid_rowconfigure(0, weight=1)  # configure grid system
         self.grid_columnconfigure(0, weight=1)
