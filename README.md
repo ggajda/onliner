@@ -1,1 +1,1 @@
-uv run pyinstaller --onefile --noconsole --name onliner main.py --collect-all tkinter
+uv run pyinstaller --onefile --noconsole --name onliner --icon=assets/icon.ico main.py --collect-all tkinter
